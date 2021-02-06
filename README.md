@@ -1,3 +1,11 @@
+# Flutter Topics
+
+## Bloc with RxDart
+Learned from: [Udemy Course](https://www.udemy.com/course/dart-and-flutter-the-complete-developers-guide/) <br/>
+Login page implementation [Source](https://github.com/sandeepdewangan/bloc1)
+
+
+
 # Flutter Learning Path
 
 ## Pawan Kumar
