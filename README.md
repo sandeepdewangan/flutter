@@ -4,6 +4,11 @@
 Learned from: [Udemy Course](https://www.udemy.com/course/dart-and-flutter-the-complete-developers-guide/) <br/>
 Login page implementation [Source](https://github.com/sandeepdewangan/bloc1)
 
+## Device Camera Access
+https://github.com/sandeepdewangan/flutter-devicecam
+
+## Flutter Shop App (udemy course)
+https://github.com/sandeepdewangan/flutter-shop
 
 
 # Flutter Learning Path
