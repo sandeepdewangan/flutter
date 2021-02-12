@@ -10,6 +10,8 @@ https://github.com/sandeepdewangan/flutter-devicecam
 ## Flutter Shop App (udemy course)
 https://github.com/sandeepdewangan/flutter-shop
 
+## Expense Manager (incomplete)
+https://github.com/sandeepdewangan/flutter-expense-manager
 
 # Flutter Learning Path
 
