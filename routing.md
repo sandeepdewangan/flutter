@@ -1,13 +1,13 @@
 # Routing
 ## Named Routing
 
-**Step 02**
+**Step 01**
 ```dart
 static const routeName = "/home"; // on first screen
 static  const  routeName = "/second_screen"; // on second screen
 ```
 
-**Step 01**
+**Step 02**
 ```dart
 @override
   Widget build(BuildContext context) {
