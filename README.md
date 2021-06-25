@@ -24,3 +24,6 @@ https://github.com/sandeepdewangan/flutter/blob/main/forms.md
 
 ## Routing
 https://github.com/sandeepdewangan/flutter/blob/main/routing.md
+
+## Null Safety
+https://github.com/sandeepdewangan/flutter/blob/main/null-safety.md
