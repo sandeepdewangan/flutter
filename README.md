@@ -12,6 +12,9 @@ https://github.com/sandeepdewangan/flutter/blob/main/routing.md
 ## Null Safety
 https://github.com/sandeepdewangan/flutter/blob/main/null-safety.md
 
+## Responsive and Adaptive UI
+https://github.com/sandeepdewangan/flutter/blob/main/responsiveui.md
+
 <hr/>
 
 # Flutter Apps
