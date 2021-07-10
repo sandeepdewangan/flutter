@@ -21,6 +21,9 @@ https://github.com/sandeepdewangan/flutter/blob/main/lifecycle.md
 ## Database Communication via API
 https://github.com/sandeepdewangan/flutter/blob/main/http-1.md
 
+## Getx State Mangement
+https://github.com/sandeepdewangan/flutter/blob/main/getxstatemanagement.md
+
 <hr/>
 
 # Flutter Apps
