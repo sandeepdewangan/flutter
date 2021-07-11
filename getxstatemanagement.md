@@ -150,7 +150,7 @@ everWorker = ever(followerList, (value) {
 }); 
 ```
 
-### GetBuilder vs GetX vs Obx vs MixinBuilder
+## GetBuilder vs GetX vs Obx vs MixinBuilder
 In a decade working with programming I was able to learn some valuable lessons.
 
 My first contact with reactive programming was so "wow, this is incredible" and in fact reactive programming is incredible. However, it is not suitable for all situations. Often all you need is to change the state of 2 or 3 widgets at the same time, or an ephemeral change of state, in which case reactive programming is not bad, but it is not appropriate.
@@ -174,4 +174,16 @@ GetX<Controller>(
     print("count 1 rebuild");
     return Text('${controller.count1.value}');
   },
+```
+GetBuilder
+```dart
+GetBuilder<ControllerName>(
+	// Wrap widget here.
+);
+```
+Obx
+```dart
+Obx(
+	() => Text(restroController.name.value),
+),
 ```
