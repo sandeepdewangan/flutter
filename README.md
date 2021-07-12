@@ -29,7 +29,7 @@ https://github.com/sandeepdewangan/flutter/blob/main/getxstatemanagement.md
 # Flutter Apps
 
 ## CRUD Basics
-Concepts Uses
+Concepts Used
 1. Get for State Management
 2. Http Package
 3. Firestore
