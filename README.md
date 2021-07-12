@@ -28,6 +28,13 @@ https://github.com/sandeepdewangan/flutter/blob/main/getxstatemanagement.md
 
 # Flutter Apps
 
+## CRUD Basics
+Concepts Uses
+1. Get for State Management
+2. Http Package
+3. Firestore
+https://github.com/sandeepdewangan/flutter_crud_sms
+
 ## Flutter Shop App (udemy course)
 https://github.com/sandeepdewangan/flutter-shop
 
