@@ -54,3 +54,9 @@ https://github.com/sandeepdewangan/flutter-devicecam
 ## Local Storage
 https://github.com/sandeepdewangan/globeapp
 
+<hr/>
+# Realtime Apps
+
+## Ekosh Sangwari
+https://github.com/sandeepdewangan/ekosh-sangwari
+
