@@ -24,6 +24,9 @@ https://github.com/sandeepdewangan/flutter/blob/main/http-1.md
 ## Getx State Mangement
 https://github.com/sandeepdewangan/flutter/blob/main/getxstatemanagement.md
 
+## Instagram Clone
+https://github.com/sandeepdewangan/flutter/blob/main/insta_clone.md
+
 <hr/>
 
 # Flutter Apps
