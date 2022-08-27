@@ -1,5 +1,8 @@
 # Flutter Tutorials
 
+## Dart Basics
+https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md
+
 ## Provider
 https://github.com/sandeepdewangan/flutter/blob/main/provider.md
 
