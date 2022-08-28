@@ -1,5 +1,8 @@
 # Flutter Tutorials
 
+## Bloc Basic Reso Coder - Youtube (https://www.youtube.com/watch?v=Mn254cnduOY)
+https://github.com/sandeepdewangan/flutter/tree/main/bloc_basic
+
 ## Dart Basics
 https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md
 
