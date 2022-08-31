@@ -36,7 +36,7 @@ void main() async {
 ```
 **Firebase storage rules**
 We are restricting the user to access the others folders.
-```json
+```
 rules_version = '2';
 service firebase.storage {
   match /b/{bucket}/o {
