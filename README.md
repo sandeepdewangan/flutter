@@ -74,8 +74,4 @@ https://github.com/sandeepdewangan/flutter_tiktokclone
 
 <hr/>
 
-# Realtime Apps
-
-## Ekosh Sangwari
-https://github.com/sandeepdewangan/ekosh-sangwari
 
