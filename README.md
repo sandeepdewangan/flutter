@@ -59,10 +59,6 @@ https://github.com/sandeepdewangan/flutter-expense-manager
 
 <hr/>
 
-## Bloc with RxDart
-Learned from: [Udemy Course](https://www.udemy.com/course/dart-and-flutter-the-complete-developers-guide/) <br/>
-Login page implementation [Source](https://github.com/sandeepdewangan/bloc1)
-
 ## Device Camera Access
 https://github.com/sandeepdewangan/flutter-devicecam
 
