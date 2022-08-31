@@ -1,5 +1,8 @@
 # Flutter Tutorials
 
+## Bloc Gallery App Reso Coder - [Youtube](https://www.youtube.com/watch?v=Mn254cnduOY)
+https://github.com/sandeepdewangan/flutter/tree/main/gallery_app
+
 ## Bloc Basic Reso Coder - [Youtube](https://www.youtube.com/watch?v=Mn254cnduOY)
 https://github.com/sandeepdewangan/flutter/tree/main/bloc_basic
 
