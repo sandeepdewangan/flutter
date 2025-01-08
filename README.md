@@ -5,10 +5,6 @@ https://github.com/sandeepdewangan/flutter/blob/main/dart_basics2.md
 https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md
 
 
-
-## -----------------------------------------------------------
-
-
 ## Bloc 01
 https://github.com/sandeepdewangan/flutter/blob/main/Bloc01.md
 
