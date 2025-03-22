@@ -2,7 +2,7 @@
 ## Types of Providers (6)
 1. Provider (Read Only)
 2. StateProvider (Can update simple values)
-3. ChangeNotifierProvider
+3. ChangeNotifierProvider (Not used much)
 4. StateNotifier and StateNotifierProvider (For updating complex values)
 5. FutureProvider
 6. StreamProvider
