@@ -60,35 +60,3 @@ https://github.com/sandeepdewangan/flutter/blob/main/getxstatemanagement.md
 ## Instagram Clone
 https://github.com/sandeepdewangan/flutter/blob/main/insta_clone.md
 
-<hr/>
-
-# Flutter Apps
-
-## CRUD Basics
-Concepts Used
-1. Get for State Management
-2. Http Package
-3. Firestore
-
-https://github.com/sandeepdewangan/flutter_crud_sms
-
-## Flutter Shop App (udemy course)
-https://github.com/sandeepdewangan/flutter-shop
-
-## Expense Manager (incomplete)
-https://github.com/sandeepdewangan/flutter-expense-manager
-
-<hr/>
-
-## Device Camera Access
-https://github.com/sandeepdewangan/flutter-devicecam
-
-## Local Storage
-https://github.com/sandeepdewangan/globeapp
-
-## Tiktok Clone
-https://github.com/sandeepdewangan/flutter_tiktokclone
-
-<hr/>
-
-
