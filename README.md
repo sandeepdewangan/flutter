@@ -8,7 +8,7 @@ https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md
 https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md
 
 ## Twitter Clone with Riverpod
-https://github.com/sandeepdewangan/twitter_clone_riverpod
+https://github.com/sandeepdewangan/flutter-twitter-clone
 
 <hr> --------- END ------------ </hr>
 
