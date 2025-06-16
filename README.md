@@ -6,6 +6,9 @@
 | Dart Basics-2  | https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md  |
 | Riverpod Basics | https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md   |
 | Twitter Clone with Riverpod | https://github.com/sandeepdewangan/flutter-twitter-clone |
+| Advance Riverpod | ⏳ |
+| Responsive UI | ⏳ |
+| FastAPI | ⏳ |
 
 
 ## Readme Files - Old
