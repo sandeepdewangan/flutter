@@ -7,6 +7,7 @@
 | Riverpod Basics | https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md   |
 | Twitter Clone with Riverpod | https://github.com/sandeepdewangan/flutter-twitter-clone |
 | Advance Riverpod | ⏳ |
+| Riverpod Todo App - Flavours | ⏳ |
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
 
