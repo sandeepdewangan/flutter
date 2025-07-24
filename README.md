@@ -2,12 +2,11 @@
 
 | Name  | Link |
 | ------------- | ------------- |
-| Dart Basics-1  | https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md  |
-| Dart Basics-2  | https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md  |
-| Riverpod Basics | https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md   |
+| Dart Basics  | 1️⃣ [Basic-1](https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md)  2️⃣ [Basic-2](https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md)|
 | Twitter Clone with Riverpod | https://github.com/sandeepdewangan/flutter-twitter-clone |
-| Advance Riverpod |  [Advanced-1](https://github.com/sandeepdewangan/flutter/blob/main/adv_riverpod-1.md)  |
-| Riverpod App | [Todo App](https://github.com/sandeepdewangan/todo_riverpod) [Weather App](https://github.com/sandeepdewangan/weather_riverpod/)|
+| Riverpod Basics | https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md   |
+| Advance Riverpod |  1️⃣ [Advanced-1](https://github.com/sandeepdewangan/flutter/blob/main/adv_riverpod-1.md)  |
+| Riverpod App | 1️⃣ [Todo App](https://github.com/sandeepdewangan/todo_riverpod) 2️⃣ [Weather App](https://github.com/sandeepdewangan/weather_riverpod/)|
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
 
