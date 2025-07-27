@@ -11,6 +11,13 @@
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
 
+# Softwares
+
+| Name  | Link |
+| ------------- | ------------- |
+| Lottie lab  | Animations |
+| Rive  | Interactive Animations |
+
 
 ## Readme Files - Old
 
