@@ -3,8 +3,8 @@
 | Name  | Link |
 | ------------- | ------------- |
 | Dart Basics  | 1️⃣ [Basic-1](https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md)  2️⃣ [Basic-2](https://github.com/sandeepdewangan/flutter/blob/main/dart_basics.md)|
-| Twitter Clone with Riverpod | https://github.com/sandeepdewangan/flutter-twitter-clone |
-| Riverpod Basics | https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md   |
+| Twitter Clone with Riverpod | ✅ [Twitter Clone](https://github.com/sandeepdewangan/flutter-twitter-clone) |
+| Riverpod Basics | ✅ [Basic](https://github.com/sandeepdewangan/flutter/blob/main/riverpod1.md)   |
 | Advanced Riverpod |  1️⃣ [Advanced-1](https://github.com/sandeepdewangan/flutter/blob/main/adv_riverpod-1.md)  (Riverpod Scopes ⏳) |
 | Riverpod App | 1️⃣ [Todo App](https://github.com/sandeepdewangan/todo_riverpod) 2️⃣ [Weather App](https://github.com/sandeepdewangan/weather_riverpod/) 3️⃣ [Firebase Auth App](https://github.com/sandeepdewangan/auth_riverpod) 4️⃣ Pagination App ⏳|
 | Theme | 1️⃣ [Basic](https://github.com/sandeepdewangan/flutter/blob/main/theme.md) |
