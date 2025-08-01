@@ -16,8 +16,8 @@
 
 | Name  | Link |
 | ------------- | ------------- |
-| Lottie lab  | Animations |
 | Rive  | Interactive Animations |
+| Affinity Designer 2  | Vector Graphics |
 
 
 ## Readme Files - Old
