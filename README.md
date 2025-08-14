@@ -17,6 +17,7 @@
 
 | Name  | Link |
 | ------------- | ------------- |
+| Drawing  | In Progress ⭐️ |
 | Rive  | Interactive Animations |
 | Affinity Designer 2  | Vector Graphics |
 
