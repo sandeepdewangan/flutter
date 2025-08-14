@@ -8,6 +8,7 @@
 | Advanced Riverpod |  1️⃣ [Advanced-1](https://github.com/sandeepdewangan/flutter/blob/main/adv_riverpod-1.md)  (Riverpod Scopes ⏳) |
 | Riverpod App | 1️⃣ [Todo App](https://github.com/sandeepdewangan/todo_riverpod) 2️⃣ [Weather App](https://github.com/sandeepdewangan/weather_riverpod/) 3️⃣ [Firebase Auth App](https://github.com/sandeepdewangan/auth_riverpod) 4️⃣ Pagination App ⏳|
 | Theme | 1️⃣ [Basic](https://github.com/sandeepdewangan/flutter/blob/main/theme.md) |
+| Animation| 1️⃣ [Basic](https://github.com/sandeepdewangan/basic_animation) |
 | GoRouter | ⏳ |
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
