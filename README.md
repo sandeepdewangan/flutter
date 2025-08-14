@@ -13,7 +13,7 @@
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
 
-# Softwares
+# My Learning
 
 | Name  | Link |
 | ------------- | ------------- |
@@ -21,6 +21,16 @@
 | Rive  | Interactive Animations |
 | Affinity Designer 2  | Vector Graphics |
 
+# Important Configuration
+`analysis_options.yaml`
+```xml
+formatter:
+  trailing_commas: preserve
+
+linter:
+  rules:
+    prefer_const_constructors: false
+```
 
 ## Readme Files - Old
 
