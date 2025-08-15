@@ -9,7 +9,7 @@
 | Riverpod App | 1️⃣ [Todo App](https://github.com/sandeepdewangan/todo_riverpod) 2️⃣ [Weather App](https://github.com/sandeepdewangan/weather_riverpod/) 3️⃣ [Firebase Auth App](https://github.com/sandeepdewangan/auth_riverpod) 4️⃣ Pagination App ⏳ 5️⃣ Go Router with Riverpod ⏳|
 | Theme | 1️⃣ [Basic](https://github.com/sandeepdewangan/flutter/blob/main/theme.md) |
 | Animation| 1️⃣ [Basic](https://github.com/sandeepdewangan/basic_animation) |
-| Testing| 1️⃣ [Unit Testing](https://github.com/sandeepdewangan/unit_testing)) |
+| Testing| 1️⃣ [Unit Testing](https://github.com/sandeepdewangan/unit_testing) |
 | GoRouter | ⏳ |
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
