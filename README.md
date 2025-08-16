@@ -39,6 +39,14 @@ linter:
     prefer_const_constructors: true
 ```
 
+**Packages**
+freezed_annotation
+dev: freezed
+
+json_annotation
+dev:json_serializable
+
+
 ## Readme Files - Old
 
 ### Bloc 01
