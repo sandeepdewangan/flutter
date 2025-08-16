@@ -25,12 +25,18 @@
 # Important Configuration
 `analysis_options.yaml`
 ```xml
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - "**/*.g.dart"
+
 formatter:
   trailing_commas: preserve
 
 linter:
   rules:
-    prefer_const_constructors: false
+    prefer_const_constructors: true
 ```
 
 ## Readme Files - Old
