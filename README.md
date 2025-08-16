@@ -38,13 +38,12 @@ linter:
   rules:
     prefer_const_constructors: true
 ```
+### Packages
 
-**Packages**
-freezed_annotation
-dev: freezed
-
-json_annotation
-dev:json_serializable
+| Package Name  | Description |
+| ------------- | ------------- |
+| freezed_annotation & dev: freezed  | - |
+| json_annotation & dev:json_serializable  | - |
 
 
 ## Readme Files - Old
