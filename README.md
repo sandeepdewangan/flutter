@@ -10,7 +10,7 @@
 | Theme | 1️⃣ [Basic](https://github.com/sandeepdewangan/flutter/blob/main/theme.md) |
 | Animation| 1️⃣ [Basic](https://github.com/sandeepdewangan/basic_animation) |
 | Testing| 1️⃣ [Unit Testing](https://github.com/sandeepdewangan/unit_testing) |
-| GoRouter | ⏳ |
+| GoRouter | 1️⃣ [Basic](https://github.com/sandeepdewangan/go_router_nav) |
 | Responsive UI | ⏳ |
 | FastAPI | ⏳ |
 
