@@ -797,7 +797,8 @@ Widget build(BuildContext context, WidgetRef ref) {
  }
 ```
 
-## 9. Stream Notifier Provider - 54, 55
+## 9. Stream Notifier Provider
+https://github.com/sandeepdewangan/flutter/blob/main/docs/stream-notifier-provider.md
 
 ## Chapter-II: Async Value Details
 
