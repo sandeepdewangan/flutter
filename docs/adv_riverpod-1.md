@@ -1,3 +1,63 @@
+## Basic Setup for Riverpod
+
+### Extensions
+
+1. Dart
+2. Flutter
+3. Awesome Flutter Snippets
+4. dart-import
+5. Pubspec Assist
+6. Dart Data Class Generator
+7. Freezed
+8. Flutter Riverpod Snippets
+9. Error Lens
+10. Image preview 
+
+### Settings
+
+`settings.json`
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+```
+
+#### YAML Options
+```yaml
+include: package:flutter_lints/flutter.yaml
+
+plugins:
+  riverpod_lint: ^3.1.3
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+  exclude:
+    - build/**
+    - .dart_tool/**
+    - lib/generated_plugin_registrant.dart
+    - test/**.mocks.dart
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**.config.dart"
+
+linter:
+  rules:
+    avoid_print: false
+    no_leading_underscores_for_local_identifiers: false
+    omit_local_variable_types: false
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_relative_imports: true
+    sort_constructors_first: true
+    unawaited_futures: true
+    
+formatter:
+  trailing_commas: preserve
+```
+
 ## Freezed Package
 ### Basic Setup
 ```shell
@@ -1125,6 +1185,183 @@ class Logger extends ProviderObserver {
       provider: ${provider.name} ?? ${provider.runtimeType} is updated 
       with old value:  $previousValue and updated value: $newValue
     ''');
+  }
+}
+```
+
+## Riverpod 3
+
+### Mutation
+Simple mutation app, to add a new todo. When adding a new todo, the textfield disabled and button shows the loading indicator just by using Mutation object.
+
+**Step-01**: Provider Class
+```dart
+final addTodoMutation = Mutation<void>();
+
+@riverpod
+class TodoList extends _$TodoList {
+  @override
+  FutureOr<List<TodoModel>> build() {
+    Future.delayed(const Duration(seconds: 2));
+    return [];
+  }
+
+  Future<void> addTodo(String desc) async {
+    await Future.delayed(const Duration(seconds: 2));
+    final TodoModel newTodo = TodoModel(
+      id: DateTime.now().microsecondsSinceEpoch.toString(),
+      description: desc,
+      completed: false,
+    );
+    state = AsyncData([...state.value ?? [], newTodo]);
+  }
+}
+```
+**Step-02**: AddTodoPage
+```dart
+class _AddTodoPageState extends ConsumerState<AddTodoPage> {
+  final _controller = TextEditingController();
+  @override
+  Widget build(BuildContext context) {
+  
+  // Listener to display message and error.
+    ref.listen(addTodoMutation, (prev, next) {
+      switch (next) {
+        case MutationSuccess():
+          ScaffoldMessenger.of(context)
+            ..hideCurrentSnackBar()
+            ..showSnackBar(const SnackBar(content: Text('Todo added')));
+          Navigator.pop(context);
+        case MutationError(:final error):
+          ScaffoldMessenger.of(context)
+            ..hideCurrentSnackBar()
+            ..showSnackBar(SnackBar(content: Text('Error: $error')));
+        case _:
+      }
+    });
+    // Access to Mutation State Life Cycle
+    final addState = ref.watch(addTodoMutation);
+
+    return Scaffold(
+      appBar: AppBar(title: const Text("Add Todo")),
+      body: Column(
+        children: [
+          TextField(
+            controller: _controller,
+            enabled: addState is! MutationPending, // 👈 Make textfield enable or disabled.
+          ),
+          ElevatedButton(
+            onPressed: () {
+            // ⭐️ Adding actions via Mutation, running transaction
+              addTodoMutation.run(ref, (tx) async {
+                await tx
+                    .get(todoListProvider.notifier)
+                    .addTodo(_controller.text);
+              }).ignore();
+              // ignore: 👉 “Fire this and don’t care about the result”
+            },
+            child: addState is MutationPending
+                ? const CircularProgressIndicator()
+                : const Text("Save"),
+          ),
+        ],
+      ),
+    );
+  }
+}
+```
+
+### Scope Optimising
+While rebuilding the UI, the list of items build again and again when a new item added. To restrict rebuilt and optimize the list of items we need scoping.
+
+**STEP 01:** Provider Class
+```dart
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+part 'item_provider.g.dart';
+
+// This provider will be scoped later
+@Riverpod(dependencies: [])
+String currentItem(Ref ref) {
+  throw UnimplementedError();
+}
+
+@riverpod
+class Item extends _$Item {
+  @override
+  List<String> build() {
+    return [];
+  }
+
+  void addItem(String item) {
+    state = [...state, item];
+  }
+
+  void removeItem(String item) {
+    state = state.where((i) => i != item).toList();
+  }
+}
+```
+**STEP 02:** UI
+```dart
+class HomePage extends ConsumerStatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  ConsumerState<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends ConsumerState<HomePage> {
+  final _controller = TextEditingController();
+  @override
+  Widget build(BuildContext context) {
+    final items = ref.watch(itemProvider);
+    return Scaffold(
+      appBar: AppBar(title: const Text("Items")),
+      body: Column(
+        children: [
+          TextField(
+            controller: _controller,
+            onSubmitted: (value) {
+              ref.read(itemProvider.notifier).addItem(value);
+              _controller.clear();
+            },
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: items.length,
+              itemBuilder: (context, index) {
+                return ProviderScope(
+                  overrides: [
+                    currentItemProvider.overrideWithValue(items[index]),
+                  ],
+                  child: const Item(),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+@Dependencies([currentItem])
+class Item extends ConsumerWidget {
+  const Item({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final item = ref.watch(currentItemProvider);
+    print("Rebuild UI"); // build once per item added
+    return ListTile(
+      title: Text(item),
+      trailing: IconButton(
+        onPressed: () {
+          ref.read(itemProvider.notifier).removeItem(item);
+        },
+        icon: const Icon(Icons.delete),
+      ),
+    );
   }
 }
 ```
